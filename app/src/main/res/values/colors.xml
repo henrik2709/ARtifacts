@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    #Primary
+    <color name="salmon">#EA7A66</color>
+    <color name="teal">#225858</color>
+
+    #Secondary
+    <color name="charcoal">#2A2A2A</color>
+    <color name="light_gray">#707070</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="bone">#ece9e4</color>
+
+    #Tertiary
+    <color name="red">#EC5555</color>
+    <color name="Green">#9BC170</color>
+
+
+</resources>

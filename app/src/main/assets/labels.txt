@@ -1,0 +1,9 @@
+0 Asien
+1 Barock
+2 Bauhaus
+3 Gotik
+4 Jugendstil
+5 Moderne
+6 Orient
+7 Postmoderne
+8 Rom

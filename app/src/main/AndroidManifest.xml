@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="ARtifacts"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NellaMaster"
+        tools:targetApi="31">
+        <activity
+            android:name=".welcomeScreens.Test"
+            android:exported="false"
+            android:label="@string/title_activity_test"
+            android:theme="@style/Theme.NellaMaster" />
+
+        <meta-data
+            android:name="com.google.ar.core"
+            android:value="optional" />
+
+        <activity
+            android:name=".Camera.CameraActivity"
+            android:exported="false"
+            android:label="@string/title_activity_camera"
+            android:theme="@style/Theme.NellaMaster" />
+        <activity
+            android:name=".QuizScreens.QuizJugendstil"
+            android:exported="false"
+            android:label="@string/title_activity_quiz_jugendstil"
+            android:theme="@style/Theme.NellaMaster" />
+        <activity
+            android:name=".QuizScreens.QuizSelector"
+            android:exported="false"
+            android:label="@string/title_activity_quiz_selector"
+            android:theme="@style/Theme.NellaMaster" />
+        <activity
+            android:name=".HelpScreens.HelpLandingScreen"
+            android:exported="false"
+            android:label="@string/title_activity_help_landing_screen"
+            android:theme="@style/Theme.NellaMaster" />
+        <activity
+            android:name=".welcomeScreens.ReadyToGoScreen"
+            android:exported="false"
+            android:label="@string/title_activity_ready_to_go_screen"
+            android:theme="@style/Theme.NellaMaster" />
+        <activity
+            android:name=".welcomeScreens.WelcomeScreen4"
+            android:exported="false"
+            android:label="@string/title_activity_welcome_screen4"
+            android:theme="@style/Theme.NellaMaster" />
+        <activity
+            android:name=".welcomeScreens.WelcomeScreen3"
+            android:exported="false"
+            android:label="@string/title_activity_welcome_screen3"
+            android:theme="@style/Theme.NellaMaster" />
+        <activity
+            android:name=".welcomeScreens.WelcomScreen2"
+            android:exported="false"
+            android:label="@string/title_activity_welcom_screen2"
+            android:theme="@style/Theme.NellaMaster" />
+        <activity
+            android:name=".welcomeScreens.WelcomeScreen"
+            android:exported="false"
+            android:label="@string/title_activity_welcome_screen"
+            android:theme="@style/Theme.NellaMaster" />
+        <activity
+            android:name=".SubKategoriePostModerne"
+            android:exported="false"
+            android:label="@string/title_activity_sub_kategorie_post_moderne"
+            android:theme="@style/Theme.NellaMaster" />
+        <activity
+            android:name=".SubKategorieModerne"
+            android:exported="false"
+            android:label="@string/title_activity_sub_kategorie_moderne"
+            android:theme="@style/Theme.NellaMaster" />
+        <activity
+            android:name=".SubKategorieRomGri"
+            android:exported="false"
+            android:label="@string/title_activity_sub_kategorie_rom_gri"
+            android:theme="@style/Theme.NellaMaster" />
+        <activity
+            android:name=".SubKategorieGotik"
+            android:exported="false"
+            android:label="@string/title_activity_sub_kategorie_gotik"
+            android:theme="@style/Theme.NellaMaster" />
+        <activity
+            android:name=".BottomNavigationBar"
+            android:exported="false"
+            android:label="@string/title_activity_bottom_navigation_bar"
+            android:theme="@style/Theme.NellaMaster" />
+        <activity
+            android:name=".ui.theme.CategoryGrafikdesignPrint"
+            android:exported="false"
+            android:label="@string/title_activity_category_grafikdesign_print"
+            android:theme="@style/Theme.NellaMaster" />
+        <activity
+            android:name=".CategotyGrafikdesignPrint"
+            android:exported="false"
+            android:label="@string/title_activity_categoty_grafikdesign_print"
+            android:theme="@style/Theme.NellaMaster" />
+        <activity
+            android:name=".CategoryKunstHandwerk"
+            android:exported="false"
+            android:label="@string/title_activity_category_kunst_handwerk"
+            android:theme="@style/Theme.NellaMaster" />
+        <activity
+            android:name=".CategoryArchitecuteInterior"
+            android:exported="false"
+            android:label="@string/title_activity_category_architecute_interior"
+            android:theme="@style/Theme.NellaMaster" />
+        <activity
+            android:name=".CategorySelection"
+            android:exported="true"
+            android:label="@string/title_activity_category_selection"
+            android:theme="@style/Theme.NellaMaster" />
+        <activity
+            android:name=".QuizPage"
+            android:exported="false"
+            android:label="@string/title_activity_quiz_page"
+            android:theme="@style/Theme.NellaMaster" />
+        <activity
+            android:name=".SubKategorieIndisch"
+            android:exported="false"
+            android:label="@string/title_activity_sub_kategorie_indisch"
+            android:theme="@style/Theme.NellaMaster" />
+        <activity
+            android:name=".SubKategorieJapanisch"
+            android:exported="false"
+            android:label="@string/title_activity_sub_kategorie_japanisch"
+            android:theme="@style/Theme.NellaMaster" />
+        <activity
+            android:name=".SubKategorieBarock"
+            android:exported="false"
+            android:label="@string/title_activity_sub_kategorie_barock"
+            android:theme="@style/Theme.NellaMaster" />
+        <activity
+            android:name=".SubKategorieBauhaus"
+            android:exported="false"
+            android:label="@string/title_activity_sub_kategorie_bauhaus"
+            android:theme="@style/Theme.NellaMaster" />
+        <activity
+            android:name=".SubKategorieKlassizismus"
+            android:exported="false"
+            android:label="@string/title_activity_sub_kategorie_klassizismus"
+            android:theme="@style/Theme.NellaMaster" />
+        <activity
+            android:name=".SubKategorieRenaissance"
+            android:exported="false"
+            android:label="@string/title_activity_sub_kategorie_renaissance"
+            android:theme="@style/Theme.NellaMaster" />
+        <activity
+            android:name=".SubKategorieJugendstil"
+            android:exported="false"
+            android:label="@string/title_activity_sub_kategorie_jugendstil"
+            android:theme="@style/Theme.NellaMaster" />
+        <activity
+            android:name=".FullScreen"
+            android:exported="false"
+            android:label="@string/title_activity_full_screen"
+            android:theme="@style/Theme.NellaMaster" />
+        <activity
+            android:name=".SubKategorie"
+            android:exported="false"
+            android:label="@string/title_activity_sub_kategorie"
+            android:theme="@style/Theme.NellaMaster" />
+        <activity
+            android:name=".HomeScreen"
+            android:exported="false"
+            android:label="@string/title_activity_home_screen"
+            android:theme="@style/Theme.NellaMaster" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.NellaMaster">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
